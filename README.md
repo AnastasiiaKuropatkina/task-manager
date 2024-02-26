@@ -2,7 +2,7 @@
 
 ## Projecto description:
 
-We will create a simple CLI task manager. Users should be able to add/remove tasks, mark tasks as Done and before exiting there should be a possibility to **save tasks to Excel spreadsheet**.
+The simple CLI task manager. Users should be able to add/remove tasks, mark tasks as Done and before exiting there should be a possibility to **save tasks to Excel spreadsheet**.
 
 ## Steps
 
@@ -31,15 +31,11 @@ Phase 3: Maintainance
 8. Upload repository to Github
 
 ## Init
-активація invertment<br>
-``
-git init
-python3 -m venv .venv
-./.venv/bin/activate
-``
 
-``
-pip install openpyxl
-pip install -r requirements.txt
-``
+``git init``<br>
+``python3 -m venv .venv``<br>
+``./.venv/bin/activate``<br>
+<br>
+``pip install openpyxl`` or <br>
+``pip install -r requirements.txt``
 
