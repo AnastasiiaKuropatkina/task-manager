@@ -1,4 +1,4 @@
-from tasks.cli import handle_action, handle_interapt
+from tasks.cli import handle_action, handle_interrupt
 
 
 def main():
@@ -6,7 +6,7 @@ def main():
         try:
             handle_action()
         except KeyboardInterrupt:
-            if handle_interapt():
+            if handle_interrupt():
                 break
 
 # name назва модуля яка інпортується from main import main

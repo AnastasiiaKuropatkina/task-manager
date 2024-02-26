@@ -9,7 +9,7 @@ def save_to_file(tasks: List[Tuple[int, str, bool]], file_name: str) -> None:
     ws = wb.active
 
     # Data can be assigned directly to cells
-    ws.append('Index', 'Title', 'Completed')
+    ws.append(['Index', 'Title', 'Completed'])
 
     # Rows can also be appended
     for task in tasks:

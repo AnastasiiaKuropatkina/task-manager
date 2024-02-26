@@ -4,7 +4,7 @@ from .export import save_to_file
 
 def handle_action():
     user_input = input('What action do you want to take?\n'
-                       '1 -add task\n'
+                       '1 - add task\n'
                        '2 - remove task\n'
                        '3 - mark as done\n'
                        '4 - show all tasks\n')
@@ -26,7 +26,7 @@ def handle_action():
             print('Try again')
 
 
-def handle_interapt():
+def handle_interrupt():
     user_input = input('\nDo you want to export tasks(y/n)?')
     if user_input == 'y':
         save_to_file(get_all_tasks(), 'export')
